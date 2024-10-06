@@ -20,13 +20,21 @@ conda activate lhpre
 **Usage**
 
 1.data_embeddings.py:Perform FCGR encoding and class imbalance handling
+
 2.train data:
+
 python train.py --task multi --midfolder ./ --out model --nepoch 150 --trainfile train1 --valfile val1 --trainlabel label_train1 --vallabel label_val1
+
 trainfile:train data
+
 testfile:test data
+
 trainlabel:train label
+
 testlabel:test label
+
 3.predict data:
+
 python predict.py --file test --labels label_test
 
 **Contact**
