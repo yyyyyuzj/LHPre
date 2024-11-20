@@ -37,8 +37,6 @@ testlabel:test label
 
 python predict.py --file test --labels label_test
 
-**Contact**
 
-If you have any questions, please email us: 2210273148@email.szu.edu.cn
 
 
